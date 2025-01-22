@@ -1,0 +1,59 @@
+body {
+    font: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    background-color: #ba1a75;
+    color: white;
+    padding: 10px 0;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 50px;
+}
+
+input[type="text"]{
+    width: 100px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+button{
+    padding: 8px 12px;
+    background-color: #ba1a75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.word-bank-container{
+    margin: 20px 50px; 
+    box-sizing: border-box;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+select, input[type="text"] {
+    flex-grow: 1;
+    max-height: 300px;
+    box-sizing: border-box;
+}
